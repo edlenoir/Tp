@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="picsou" version="4">
+  <OBJECT>
+    <ID name="picsou" mc="Standard.Package" uid="3c5bd660-8ea5-4bdc-9370-f5f566376e52"/>
+    <PID name="Picsou" mc="Standard.Project" uid="b9a9bff0-5595-4cb0-8456-b693da92090d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[picsou]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Compte" mc="Standard.Class" uid="c5bb9838-a086-4cd3-91ee-ce1257a87d97"/>
+        <COMPID name="Carte" mc="Standard.Class" uid="928c5d9a-503d-42d0-ad9b-9f630f9e6cd4"/>
+        <COMPID name="Distributeur" mc="Standard.Class" uid="e0d7daea-9e80-4f96-a924-00942a1d20f3"/>
+        <COMPID name="Réservoir" mc="Standard.Class" uid="b124b38d-ac20-4fbe-b7b0-15b552178f31"/>
+        <COMPID name="Réservoir10" mc="Standard.Class" uid="67cfc96e-0acf-4ac6-aa4e-998d1bbf76f9"/>
+        <COMPID name="Réservoir20" mc="Standard.Class" uid="db5b1077-fc98-4c94-b38a-dd882590296b"/>
+        <COMPID name="Réservoir50" mc="Standard.Class" uid="a5f1e0a4-13e4-4696-9649-f668ef9c21f7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="picsou Class diagram" mc="Standard.ClassDiagram" uid="1fe5f81e-bfa6-4dbb-8a57-dbc83e3a092d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

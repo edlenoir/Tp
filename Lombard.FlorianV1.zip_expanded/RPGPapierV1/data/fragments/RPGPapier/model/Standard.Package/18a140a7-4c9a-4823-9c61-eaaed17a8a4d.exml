@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rpgpapier" version="4">
+  <OBJECT>
+    <ID name="rpgpapier" mc="Standard.Package" uid="18a140a7-4c9a-4823-9c61-eaaed17a8a4d"/>
+    <PID name="RPGPapier" mc="Standard.Project" uid="13a85cf8-fc5a-4fa5-83fd-8936edbfd553"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rpgpapier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Perso" mc="Standard.Class" uid="0f120d32-78db-45b0-9c7c-70c4521b442d"/>
+        <COMPID name="Classe" mc="Standard.Class" uid="0c9a6164-525d-430f-9d6f-9de2880cbb8c"/>
+        <COMPID name="Mage" mc="Standard.Class" uid="df1cbd3e-6068-41b9-88a5-9cf04bfad5d0"/>
+        <COMPID name="Voleur" mc="Standard.Class" uid="cdbe5d2c-7f5e-47ee-bd79-d6ac777a5693"/>
+        <COMPID name="Guerrier" mc="Standard.Class" uid="71d83fff-8769-4f3f-911e-4d78f773b87a"/>
+        <COMPID name="Equipe" mc="Standard.Class" uid="c6451ec6-c275-41a9-9b85-402aaa49b251"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="rpgpapier Class diagram" mc="Standard.ClassDiagram" uid="87e33d59-7981-4030-a5a5-1b1d169c4de2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

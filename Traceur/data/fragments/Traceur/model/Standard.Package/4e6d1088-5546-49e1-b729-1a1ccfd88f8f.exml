@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="traceur" version="4">
+  <OBJECT>
+    <ID name="traceur" mc="Standard.Package" uid="4e6d1088-5546-49e1-b729-1a1ccfd88f8f"/>
+    <PID name="Traceur" mc="Standard.Project" uid="d5a06a10-599f-44a7-b7a0-f213fea7c2c7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[traceur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="ec31c145-c4d6-4222-a777-d4304666ddeb"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Rectangle" mc="Standard.Class" uid="1ada008b-58bf-415e-96d3-18d48c25b56e"/>
+        <COMPID name="PointNB" mc="Standard.Class" uid="1ae77914-f007-4658-bd58-94aa8af83344"/>
+        <COMPID name="Figure " mc="Standard.Class" uid="86c926c8-f126-4cb6-8d16-7c93e02c2e7f"/>
+        <COMPID name="Java" mc="Standard.Package" uid="d623b569-67c9-42d9-a99f-bd09a366d067"/>
+        <OBJECT>
+          <ID name="TypeFigure" mc="Standard.Enumeration" uid="16caefbf-0944-493c-854f-3f189034d348"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TypeFigure]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="NOIR_ET_BLANC" mc="Standard.EnumerationLiteral" uid="7721ddaa-4e16-4f8d-b62a-ab53047d41e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[NOIR_ET_BLANC]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="COULEUR" mc="Standard.EnumerationLiteral" uid="e19c49e6-5986-47ac-a1d7-cebcff68aaf2"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[COULEUR]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Cercle" mc="Standard.Class" uid="e1637610-4a52-46dd-99f3-b4a7738a8e2b"/>
+        <COMPID name="Triangle" mc="Standard.Class" uid="efee39a4-8061-409c-b684-5247ac944188"/>
+        <COMPID name="Point" mc="Standard.Class" uid="735d475e-1af6-4dd2-803b-fe2cbe62f8b0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de Classe" mc="Standard.ClassDiagram" uid="b182fe83-eeca-4df7-b7ab-075632f079ee"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

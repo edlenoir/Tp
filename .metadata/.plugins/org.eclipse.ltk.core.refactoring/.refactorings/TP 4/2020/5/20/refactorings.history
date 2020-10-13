@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;TP 4&apos;&#x0D;&#x0A;- Original project: &apos;TP 4&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Application.java&#x0D;&#x0A;     chaviro.txt&#x0D;&#x0A;     Mot.java&#x0D;&#x0A;     TableMots.java&#x0D;&#x0A;     TableMotsPleine.java" description="Delete elements" element1="Application.java" element2="chaviro.txt" element3="TableMots.java" element4="TableMotsPleine.java" element5="Mot.java" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1589355503017" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="awt" version="4">
+  <OBJECT>
+    <ID name="awt" mc="Standard.Package" uid="e894db1c-65d9-4a17-a85e-64230d87a30b"/>
+    <PID name="Java" mc="Standard.Package" uid="d623b569-67c9-42d9-a99f-bd09a366d067"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[awt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Color" mc="Standard.DataType" uid="f0e2dd94-6132-425d-8208-710e9f3b819e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

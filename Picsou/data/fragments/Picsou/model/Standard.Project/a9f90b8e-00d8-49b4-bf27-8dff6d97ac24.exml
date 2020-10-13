@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Picsou" version="4">
+  <OBJECT>
+    <ID name="Picsou" mc="Standard.Project" uid="a9f90b8e-00d8-49b4-bf27-8dff6d97ac24"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Picsou]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="picsou" mc="Standard.Package" uid="34a3280e-35e0-4a59-9da1-882561663320"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Picsou" mc="Infrastructure.DiagramSet" uid="8fa68a70-84a4-459a-8665-4e469fdf8883"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

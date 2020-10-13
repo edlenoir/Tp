@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tp2_m3105" version="4">
+  <OBJECT>
+    <ID name="tp2_m3105" mc="Standard.Package" uid="a042ecde-4cae-4e4d-850b-a0909cad4fcd"/>
+    <PID name="TP2_M3105" mc="Standard.Project" uid="1a480eb3-3148-43a5-a02a-e2cac7057b99"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tp2_m3105]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ObjetGraphique" mc="Standard.Class" uid="6cee1001-7f87-4d73-a1af-12f91145a58a"/>
+        <COMPID name="Arbre" mc="Standard.Class" uid="18233444-3ec6-4532-a3ff-e55da9cb2346"/>
+        <COMPID name="Immeuble" mc="Standard.Class" uid="443860f0-a9f0-4965-9642-ab1e15d382da"/>
+        <COMPID name="Cloneable" mc="Standard.Interface" uid="c39768ee-d197-4981-850b-a4aecf9e443b"/>
+        <COMPID name="Package" mc="Standard.Package" uid="a823d9dc-1670-4a8f-bef9-805b22155767"/>
+        <COMPID name="Object" mc="Standard.Class" uid="27533c9e-4559-478e-b89d-c59ba615dcb8"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="tp2_m3105 Class diagram" mc="Standard.ClassDiagram" uid="20ee237b-329c-44fb-b2b5-34ec2e3fa8b5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

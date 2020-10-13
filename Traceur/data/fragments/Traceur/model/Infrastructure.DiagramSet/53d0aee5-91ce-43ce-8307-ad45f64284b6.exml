@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Traceur" version="4">
+  <OBJECT>
+    <ID name="Traceur" mc="Infrastructure.DiagramSet" uid="53d0aee5-91ce-43ce-8307-ad45f64284b6"/>
+    <PID name="Traceur" mc="Standard.Project" uid="d5a06a10-599f-44a7-b7a0-f213fea7c2c7"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Traceur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

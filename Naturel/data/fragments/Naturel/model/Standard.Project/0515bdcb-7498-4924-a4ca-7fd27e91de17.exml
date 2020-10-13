@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Naturel" version="4">
+  <OBJECT>
+    <ID name="Naturel" mc="Standard.Project" uid="0515bdcb-7498-4924-a4ca-7fd27e91de17"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Naturel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="naturel" mc="Standard.Package" uid="2ed6f058-a5c2-448e-a817-9f5a20a35dee"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Naturel" mc="Infrastructure.DiagramSet" uid="daf37114-13e3-4469-b628-62902d01f13a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

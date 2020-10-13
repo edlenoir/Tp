@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Nathanael/modelio/Modelio Open Source 4.0/bundle/java/javadesigner.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

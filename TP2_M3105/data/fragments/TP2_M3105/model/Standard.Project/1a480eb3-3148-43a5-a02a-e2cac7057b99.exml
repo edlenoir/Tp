@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TP2_M3105" version="4">
+  <OBJECT>
+    <ID name="TP2_M3105" mc="Standard.Project" uid="1a480eb3-3148-43a5-a02a-e2cac7057b99"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TP2_M3105]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="tp2_m3105" mc="Standard.Package" uid="a042ecde-4cae-4e4d-850b-a0909cad4fcd"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TP2_M3105" mc="Infrastructure.DiagramSet" uid="269c7062-d65b-4886-aa37-333824a38bf0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

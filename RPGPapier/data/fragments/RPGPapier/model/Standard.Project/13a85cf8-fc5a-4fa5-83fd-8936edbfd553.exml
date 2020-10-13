@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RPGPapier" version="4">
+  <OBJECT>
+    <ID name="RPGPapier" mc="Standard.Project" uid="13a85cf8-fc5a-4fa5-83fd-8936edbfd553"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[RPGPapier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="rpgpapier" mc="Standard.Package" uid="18a140a7-4c9a-4823-9c61-eaaed17a8a4d"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="RPGPapier" mc="Infrastructure.DiagramSet" uid="1f47b94a-e693-4068-80df-30579fab485d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

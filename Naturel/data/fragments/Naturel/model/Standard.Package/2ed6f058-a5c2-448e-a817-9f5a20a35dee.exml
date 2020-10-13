@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="naturel" version="4">
+  <OBJECT>
+    <ID name="naturel" mc="Standard.Package" uid="2ed6f058-a5c2-448e-a817-9f5a20a35dee"/>
+    <PID name="Naturel" mc="Standard.Project" uid="0515bdcb-7498-4924-a4ca-7fd27e91de17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[naturel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Natural" mc="Standard.Class" uid="e846880f-c48d-4861-b45d-0a879197b6eb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

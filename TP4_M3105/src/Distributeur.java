@@ -9,6 +9,10 @@ public class Distributeur {
     CalculatorBillets20 c20 = new CalculatorBillets20();
     CalculatorBillets10 c10 = new CalculatorBillets10();
     CalculatorBillets5 c5 = new CalculatorBillets5();
+    CalculatorBillets50v2 c50v2 = new CalculatorBillets50v2();
+    CalculatorBillets20v2 c20v2 = new CalculatorBillets20v2();
+    CalculatorBillets10v2 c10v2 = new CalculatorBillets10v2();
+    CalculatorBillets5v2 c5v2 = new CalculatorBillets5v2();
     
 	public Distributeur(int nb50, int nb20, int nb10) {
 		this.etat = new EtatDistributeur();
@@ -71,10 +75,10 @@ public class Distributeur {
 	public List<Couple> donnerBilletsGrossesCoupures(int montant) {
 		List<Couple> proposition = new LinkedList<Couple>();
 		WrapperMontant wrapper = new WrapperMontant(montant);
-		c50.setSuivant(c20);
-		c20.setSuivant(c10);
-		c10.setSuivant(c5);
-		c5.setSuivant(null);
+		c50v2.setSuivant(c20v2);
+		c20v2.setSuivant(c10v2);
+		c10v2.setSuivant(c5v2);
+		c5v2.setSuivant(null);
 		c50.donnerBillets(wrapper, proposition,this.etat);
         montant = wrapper.getMontant();
 		return proposition;	

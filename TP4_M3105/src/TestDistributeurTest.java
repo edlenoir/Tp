@@ -195,9 +195,7 @@ public class TestDistributeurTest {
 		List<Couple> proposition = d2.donnerBilletsGrossesCoupures(40);
 		assertEquals(0, d2.montantRestantDu(proposition, 40));
 		assertEquals(20, proposition.get(0).getValeurBillet());
-		assertEquals(1, proposition.get(0).getNombreBilletsDelivres());
-		assertEquals(10, proposition.get(1).getValeurBillet());
-		assertEquals(2, proposition.get(1).getNombreBilletsDelivres());
+		assertEquals(2, proposition.get(0).getNombreBilletsDelivres());
 	}
 	
 	@Test
@@ -206,11 +204,9 @@ public class TestDistributeurTest {
 		List<Couple> proposition = d2.donnerBilletsGrossesCoupures(110);
 		assertEquals(0, d2.montantRestantDu(proposition, 110));
 		assertEquals(50, proposition.get(0).getValeurBillet());
-		assertEquals(1, proposition.get(0).getNombreBilletsDelivres());
-		assertEquals(20, proposition.get(1).getValeurBillet());
-		assertEquals(2, proposition.get(1).getNombreBilletsDelivres());
-		assertEquals(10, proposition.get(2).getValeurBillet());
-		assertEquals(2, proposition.get(2).getNombreBilletsDelivres());
+		assertEquals(2, proposition.get(0).getNombreBilletsDelivres());
+		assertEquals(10, proposition.get(1).getValeurBillet());
+		assertEquals(1, proposition.get(1).getNombreBilletsDelivres());
 	}
 	
 

@@ -82,7 +82,7 @@ public class Distributeur {
 		c20v2.setSuivant(c10v2);
 		c10v2.setSuivant(c5v2);
 		c5v2.setSuivant(null);
-		c50.donnerBillets(wrapper, proposition,this.etat);
+		c50v2.donnerBillets(wrapper, proposition,this.etat);
         montant = wrapper.getMontant();
 		return proposition;	
 	}

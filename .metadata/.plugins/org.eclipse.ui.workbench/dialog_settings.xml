@@ -7,9 +7,15 @@
 	<section name="NewWizardAction">
 	</section>
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.egit.ui.internal.clone.GitCloneWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
 		</list>
 	</section>
 	<section name="ZipFileImportWizard">
@@ -19,6 +25,14 @@
 			<item value="C:\Users\Utilisateur\Desktop\Nouveau dossier\TestPersonne.zip"/>
 			<item value="C:\Users\Utilisateur\Desktop\Nouveau dossier\TestMot.zip"/>
 			<item value="C:\Users\Utilisateur\Desktop\Nouveau dossier\TableMots.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Utilisateur\Downloads\Lombard.Florian_TP3.zip"/>
+			<item value="TP3_LOMBARD_FLORIAN.zip"/>
 		</list>
 	</section>
 </section>

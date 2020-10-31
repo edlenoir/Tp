@@ -37,6 +37,7 @@ public class TestDistributeurTest {
 		assertEquals(2, proposition.get(0).getNombreBilletsDelivres());
 	}
 	
+	
 	@Test
 	public void testBillets60() {
 		Distributeur d = new Distributeur(10, 10, 10);
@@ -145,6 +146,70 @@ public class TestDistributeurTest {
 		assertEquals(10, proposition.get(2).getValeurBillet());
 		assertEquals(10, proposition.get(2).getNombreBilletsDelivres());
 	}
+	
+	
+	
+	
+	@Test
+	public void testBillets10Ptitcoupure() {
+		Distributeur d2 = new Distributeur(10, 10, 10,10);
+		List<Couple> proposition = d2.donnerBilletsPetitesCoupures(10);
+		assertEquals(0, d2.montantRestantDu(proposition, 10));
+		assertEquals(10, proposition.get(0).getValeurBillet());
+		assertEquals(1, proposition.get(0).getNombreBilletsDelivres());
+	}
+	
+	@Test
+	public void testBillets40Ptitcoupure() {
+		Distributeur d2 = new Distributeur(10, 10, 10,10);
+		List<Couple> proposition = d2.donnerBilletsPetitesCoupures(40);
+		assertEquals(0, d2.montantRestantDu(proposition, 40));
+		assertEquals(5, proposition.get(0).getValeurBillet());
+		assertEquals(2, proposition.get(0).getNombreBilletsDelivres());
+		assertEquals(10, proposition.get(1).getValeurBillet());
+		assertEquals(3, proposition.get(1).getNombreBilletsDelivres());
+	}
+	
+	@Test
+	public void testBillets110Ptitcoupure() {
+		Distributeur d2 = new Distributeur(10, 10, 12,10);
+		List<Couple> proposition = d2.donnerBilletsPetitesCoupures(110);
+		assertEquals(0, d2.montantRestantDu(proposition, 110));
+		assertEquals(10, proposition.get(0).getValeurBillet());
+		assertEquals(11, proposition.get(0).getNombreBilletsDelivres());
+		
+	}
+	
+	@Test
+	public void testBillets10GrossesCoupures() {
+		Distributeur d2 = new Distributeur(10, 10, 10,10);
+		List<Couple> proposition = d2.donnerBilletsGrossesCoupures(10);
+		assertEquals(0, d2.montantRestantDu(proposition, 10));
+		assertEquals(10, proposition.get(0).getValeurBillet());
+		assertEquals(1, proposition.get(0).getNombreBilletsDelivres());
+	}
+	
+	@Test
+	public void testBillets40GrossesCoupures() {
+		Distributeur d2 = new Distributeur(10, 10, 10,10);
+		List<Couple> proposition = d2.donnerBilletsGrossesCoupures(40);
+		assertEquals(0, d2.montantRestantDu(proposition, 40));
+		assertEquals(20, proposition.get(0).getValeurBillet());
+		assertEquals(2, proposition.get(0).getNombreBilletsDelivres());
+	}
+	
+	@Test
+	public void testBillets110GrossesCoupures() {
+		Distributeur d2 = new Distributeur(10, 10, 10,10);
+		List<Couple> proposition = d2.donnerBilletsGrossesCoupures(110);
+		assertEquals(0, d2.montantRestantDu(proposition, 110));
+		assertEquals(50, proposition.get(0).getValeurBillet());
+		assertEquals(2, proposition.get(0).getNombreBilletsDelivres());
+		assertEquals(10, proposition.get(1).getValeurBillet());
+		assertEquals(1, proposition.get(1).getNombreBilletsDelivres());
+	}
+	
+
 	
 
 }

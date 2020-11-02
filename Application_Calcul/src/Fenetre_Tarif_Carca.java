@@ -63,8 +63,8 @@ public class Fenetre_Tarif_Carca {
 		 	    nb_km = Float.parseFloat(Km.getText());
 		 	    Km.requestFocus();
 		 	    if(nb_km <= 5) {
-		 	    	HT.setText("9,09");
-		 	    	TTC.setText("10,00");
+		 	    	HT.setText("9.09");
+		 	    	TTC.setText("10.00");
 		 	    	HT.requestFocus();
 		 	    	TTC.requestFocus();
 		 	    }
@@ -106,7 +106,7 @@ public class Fenetre_Tarif_Carca {
 			 	    Km.requestFocus();
 			 	    if(nb_km <= 5) {
 			 	    	HT.setText("18.18");
-			 	    	TTC.setText("20,00");
+			 	    	TTC.setText("20.00");
 			 	    	HT.requestFocus();
 			 	    	TTC.requestFocus();
 			 	    }

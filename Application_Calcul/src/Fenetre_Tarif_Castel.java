@@ -110,8 +110,8 @@ public class Fenetre_Tarif_Castel {
 		 	    	    TTC.requestFocus();
 		 	    	}
 		 	     	if(nb_km> 20 && nb_km <= 60) {
-		 	    		res_ht = nb_km * 1.7;
-		 	    		res_ttc = nb_km * 1.87;
+		 	    		res_ht = (nb_km * 1.7)*2;
+		 	    		res_ttc = (nb_km * 1.87)*2;
 		 	    		HT.setText("" + res_ht);
 		 	    		TTC.setText("" + res_ttc);
 		 	    	    HT.requestFocus();
